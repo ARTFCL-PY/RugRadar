@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Rug Radar privacy policy</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main class="doc">
+  <p class="kicker"><a href="./">Rug Radar</a></p>
+  <h1>Privacy policy</h1>
+  <p class="meta">Effective October 28, 2026</p>
+
+  <p>Rug Radar is a browser extension that checks Solana tokens before you buy them. It's built to need as little of your information as possible. The short version: <strong>we don't collect personal data, we never touch your wallet, and nothing you do is sold or shared for advertising.</strong></p>
+
+  <h2>What Rug Radar does not collect</h2>
+  <ul>
+    <li>No names, email addresses, accounts or sign-ins.</li>
+    <li>No wallet addresses, private keys, seed phrases or signatures. Rug Radar never connects to a wallet.</li>
+    <li>No browsing history, and no page contents. Rug Radar has no access to websites other than the data sources listed below.</li>
+    <li>No analytics, tracking pixels or advertising identifiers.</li>
+  </ul>
+
+  <h2>What happens when you check a token</h2>
+  <p>When you click the Rug Radar button, the extension reads the address (URL) of the tab you're on <strong>once</strong>, only to find a token address on supported pages (pump.fun, DexScreener, Solscan, Birdeye, Jupiter, RugCheck and GMGN). The page address isn't stored or sent anywhere.</p>
+  <p>To run the checks, Rug Radar sends <strong>the token address</strong> (and, for price quotes, the buy amount you entered) directly from your browser to these public data services:</p>
+  <ul>
+    <li><strong>Solana network RPC</strong> (PublicNode, the public Solana endpoint, or an RPC URL you choose in settings): token authorities and features.</li>
+    <li><strong>RugCheck</strong> (api.rugcheck.xyz): risk flags, liquidity lock and holders.</li>
+    <li><strong>DexScreener</strong> (api.dexscreener.com): liquidity, trading activity and paid promotion.</li>
+    <li><strong>Jupiter</strong> (lite-api.jup.ag): token information and buy/sell price quotes.</li>
+  </ul>
+  <p>Like any website your browser contacts, these services can see your IP address and the request. Their own privacy policies apply to what they do with it. Rug Radar does not send them anything else about you.</p>
+
+  <h2>What's stored on your device</h2>
+  <ul>
+    <li>Your settings: default buy size and, if you add one, your own Solana RPC URL.</li>
+    <li>Your recent checks (token address, name, verdict and time), up to 12.</li>
+    <li>A short-lived cache of results (about one minute) so repeated checks are fast.</li>
+  </ul>
+  <p>This stays in your browser's extension storage and never leaves your device. Removing the extension deletes it. You can also clear recent checks in the popup.</p>
+
+  <h2>Sharing and selling</h2>
+  <p>We don't sell, rent or share your data, and we don't use it for advertising, creditworthiness or lending. There's nothing to share, because we don't collect it.</p>
+
+  <h2>Children</h2>
+  <p>Rug Radar isn't directed at children under 13 and collects no information from anyone.</p>
+
+  <h2>Changes</h2>
+  <p>If this policy changes, for example when optional paid features with accounts are added, we'll update this page and its effective date before the change takes effect. Anything new will be opt-in.</p>
+
+  <h2 id="contact">Contact</h2>
+  <p>Questions: <span class="email">artfcl.py@gmail.com</span></p>
+
+  <p class="fine">Rug Radar is a research tool, not financial advice. Results come from public data and can be wrong or incomplete.</p>
+</main>
+</body>
+</html>
